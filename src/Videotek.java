@@ -39,7 +39,7 @@ private int nbFilm;
          System.out.println(film);
          if (film != null) {
             prixTotal += film.getPrix();
-            moyenneNote = film.getNbEtoile()/nbFilm;
+            moyenneNote += film.getNbEtoile()/nbFilm;
          }
       }
       System.out.println("Le prix du catalogue s'élève à : " + prixTotal + " euros.");
